@@ -1,6 +1,6 @@
 import React from "react";
-import PropsTest from "./PropsTest";
-import CountUpButton from "./CountUpButton";
+// import PropsTest from "./PropsTest";
+import { CountUpButton } from "./CountUpButton";
 
 const App = () => {
   return (

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const CountUpButton = (props) => {
+export const CountUpButton = (props) => {
   const [num, setNum] = useState(0);
   const [faceShowFlag, setFaceShowFlag] = useState(false);
 
@@ -32,5 +32,3 @@ const CountUpButton = (props) => {
     </>
   );
 };
-
-export default CountUpButton;
